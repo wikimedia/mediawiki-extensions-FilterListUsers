@@ -12,6 +12,7 @@ $messages = array();
  * @author Jack Phoenix <jack@countervandalism.net>
  */
 $messages['en'] = array(
+	'filterlistusers-desc' => 'Filters out users that have not edited from [[Special:ListUsers|users list]]',
 	'listusers-showall' => 'Show all users, including those with less than 5 edits',
 	'right-viewallusers' => 'View all users in [[Special:ListUsers|the user list]]'
 );

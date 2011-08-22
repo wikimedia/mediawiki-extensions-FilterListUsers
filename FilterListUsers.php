@@ -16,10 +16,11 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['other'][] = array(
+	'path' => __FILE__,
 	'name' => 'FilterListUsers',
-	'version' => '1.0',
+	'version' => '1.0.1',
 	'author' => 'Jack Phoenix',
-	'description' => "Filters out users that haven't edited from [[Special:ListUsers]]",
+	'descriptionmsg' => 'filterlistusers-desc',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:FilterListUsers',
 );
 
