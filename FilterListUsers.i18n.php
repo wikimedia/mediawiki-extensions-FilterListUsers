@@ -17,6 +17,16 @@ $messages['en'] = array(
 	'right-viewallusers' => 'View all users in [[Special:ListUsers|the user list]]'
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
+ * @author Jim-by
+ */
+$messages['be-tarask'] = array(
+	'filterlistusers-desc' => 'Адфільтроўвае удзельнікаў, якія не рэдагавалі, са [[Special:ListUsers|сьпісу ўдзельнікаў]]',
+	'listusers-showall' => 'Паказаць усіх удзельнікаў, нават тых, якія зрабілі меней 5 рэдагаваньняў',
+	'right-viewallusers' => 'Паказаць усіх удзельнікаў у [[Special:ListUsers|сьпісе ўдзельнікаў]]',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
