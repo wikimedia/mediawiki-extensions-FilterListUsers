@@ -44,6 +44,15 @@ $messages['fi'] = array(
 	'right-viewallusers' => 'Katsoa kaikki käyttäjät [[Special:ListUsers|käyttäjälistassa]]',
 );
 
+/** French (Français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'filterlistusers-desc' => "Éliminer les utilisateurs qui n'ont rien édité de [[Special:ListUsers|la liste des utilisateurs]]",
+	'listusers-showall' => 'Afficher tous les utilisateurs, y compris ceux ayant fait moins de 5 modifications',
+	'right-viewallusers' => 'Voir tous les utilisateurs dans [[Special:ListUsers|la liste des utilisateurs]]',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -64,8 +73,10 @@ $messages['mk'] = array(
 
 /** Dutch (Nederlands)
  * @author Mitchel Corstjens
+ * @author Siebrand
  */
 $messages['nl'] = array(
+	'filterlistusers-desc' => 'Filtert gebruikers die nog geen bewerking hebben gemaakt uit de [[Special:ListUsers|gebruikerslijst]]',
 	'listusers-showall' => 'Geef alle gebruikers weer, ook gebruikers met minder dan 5 bewerkingen',
 	'right-viewallusers' => 'Bekijk alle gebruikers in de [[Special:ListUsers|gebruikers lijst]]',
 );
