@@ -53,6 +53,15 @@ $messages['fr'] = array(
 	'right-viewallusers' => 'Voir tous les utilisateurs dans [[Special:ListUsers|la liste des utilisateurs]]',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'filterlistusers-desc' => 'Filtra os usuarios que non fixeran edicións na [[Special:ListUsers|lista de usuarios]]',
+	'listusers-showall' => 'Mostrar todos os usuarios, incluíndo aqueles con menos de 5 edicións',
+	'right-viewallusers' => 'Ver todos os usuarios na [[Special:ListUsers|lista de usuarios]]',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
