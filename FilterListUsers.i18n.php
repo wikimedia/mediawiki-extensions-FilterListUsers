@@ -62,6 +62,15 @@ $messages['gl'] = array(
 	'right-viewallusers' => 'Ver todos os usuarios na [[Special:ListUsers|lista de usuarios]]',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'filterlistusers-desc' => 'Elimina le usatores que non ha facite modificationes del [[Special:ListUsers|lista de usatores]]',
+	'listusers-showall' => 'Monstrar tote le usatores, includente illes que ha facite minus de 5 modificationes',
+	'right-viewallusers' => 'Vider tote le usatores in [[Special:ListUsers|le lista de usatores]]',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -81,12 +90,13 @@ $messages['mk'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author McDutchie
  * @author Mitchel Corstjens
  * @author Siebrand
  */
 $messages['nl'] = array(
 	'filterlistusers-desc' => 'Filtert gebruikers die nog geen bewerking hebben gemaakt uit de [[Special:ListUsers|gebruikerslijst]]',
 	'listusers-showall' => 'Geef alle gebruikers weer, ook gebruikers met minder dan 5 bewerkingen',
-	'right-viewallusers' => 'Bekijk alle gebruikers in de [[Special:ListUsers|gebruikers lijst]]',
+	'right-viewallusers' => 'Bekijk alle gebruikers in de [[Special:ListUsers|gebruikerslijst]]',
 );
 
