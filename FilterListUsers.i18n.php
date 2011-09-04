@@ -71,6 +71,15 @@ $messages['ia'] = array(
 	'right-viewallusers' => 'Vider tote le usatores in [[Special:ListUsers|le lista de usatores]]',
 );
 
+/** Japanese (日本語)
+ * @author Schu
+ */
+$messages['ja'] = array(
+	'filterlistusers-desc' => '[[Special:ListUsers|利用者の一覧]]から編集していないユーザーをフィルタアウトします。',
+	'listusers-showall' => '編集 5回未満の者を含む、すべての利用者を表示',
+	'right-viewallusers' => '[[Special:ListUsers|利用者の一覧]]からすべてのユーザーを表示',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
