@@ -109,3 +109,10 @@ $messages['nl'] = array(
 	'right-viewallusers' => 'Bekijk alle gebruikers in de [[Special:ListUsers|gebruikerslijst]]',
 );
 
+/** Portuguese (Português)
+ * @author SandroHc
+ */
+$messages['pt'] = array(
+	'filterlistusers-desc' => 'Filtrar utilizadores que não fizeram edições [[Special:ListUsers|lista de utilizadores]]',
+);
+
