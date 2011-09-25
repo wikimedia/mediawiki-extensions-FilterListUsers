@@ -17,6 +17,13 @@ $messages['en'] = array(
 	'right-viewallusers' => 'View all users in [[Special:ListUsers|the user list]]'
 );
 
+/** Message documentation (Message documentation)
+ * @author Umherirrender
+ */
+$messages['qqq'] = array(
+	'right-viewallusers' => '{{doc-right|viewallusers}}',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
