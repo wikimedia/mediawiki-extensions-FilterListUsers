@@ -123,3 +123,12 @@ $messages['pt'] = array(
 	'filterlistusers-desc' => 'Filtrar utilizadores que não fizeram edições [[Special:ListUsers|lista de utilizadores]]',
 );
 
+/** Russian (Русский)
+ * @author Askarmuk
+ */
+$messages['ru'] = array(
+	'filterlistusers-desc' => 'Не показывать в [[Special:ListUsers|списке]] участников, не имеющих правок',
+	'listusers-showall' => 'Показать всех участников, включая тех, кто сделал меньше 5 правок',
+	'right-viewallusers' => 'Показать всех участников в [[Special:ListUsers|списке участников]]',
+);
+
