@@ -116,6 +116,14 @@ $messages['nl'] = array(
 	'right-viewallusers' => 'Bekijk alle gebruikers in de [[Special:ListUsers|gebruikerslijst]]',
 );
 
+/** Polish (Polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'listusers-showall' => 'Pokaż wszystkich użytkowników, włączając także posiadających mniej niż 5 edycji',
+	'right-viewallusers' => 'Zobacz wszystkich na [[Special:ListUsers|liście użytkowników]]',
+);
+
 /** Portuguese (Português)
  * @author SandroHc
  */
