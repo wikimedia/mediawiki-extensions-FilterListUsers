@@ -44,11 +44,12 @@ $messages['de'] = array(
 );
 
 /** Finnish (Suomi)
+ * @author Crt
  * @author Jack Phoenix <jack@countervandalism.net>
  */
 $messages['fi'] = array(
-	'listusers-showall' => 'Näytä kaikki käyttäjät, mukaanlukien ne, joilla on alle viisi muokkausta',
-	'right-viewallusers' => 'Katsoa kaikki käyttäjät [[Special:ListUsers|käyttäjälistassa]]',
+	'listusers-showall' => 'Näytä kaikki käyttäjät, mukaan lukien ne, joilla on alle viisi muokkausta',
+	'right-viewallusers' => 'Tarkastella kaikkia käyttäjiä [[Special:ListUsers|käyttäjälistassa]]',
 );
 
 /** French (Français)
