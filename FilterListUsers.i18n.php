@@ -70,6 +70,15 @@ $messages['gl'] = array(
 	'right-viewallusers' => 'Ver todos os usuarios na [[Special:ListUsers|lista de usuarios]]',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'filterlistusers-desc' => 'Wufiltruje wužiwarjow z [[Special:ListUsers|lisćiny wužiwarjow]] , kotřiž njejsu ničo wobdźěłali',
+	'listusers-showall' => 'Wšěch wužiwarjow pokazać, inkluziwnje tych, kotřiž su mjenje hač 5 změnow přewjedli',
+	'right-viewallusers' => 'Wšěch wužiwarjow w [[Special:ListUsers|lisćinje wužiwarjow]] sej wobhladać',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
