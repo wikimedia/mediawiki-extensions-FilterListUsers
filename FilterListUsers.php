@@ -21,7 +21,7 @@ $wgExtensionCredits['other'][] = array(
 	'version' => '1.0.1',
 	'author' => 'Jack Phoenix',
 	'descriptionmsg' => 'filterlistusers-desc',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:FilterListUsers',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:FilterListUsers',
 );
 
 // New user right, required to view all users in Special:ListUsers
