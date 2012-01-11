@@ -135,12 +135,13 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'filterlistusers-desc' => "A filtra fòra j'utent j'utent ch'a l'han pa modificà da la [[Special:ListUsers|lista utent]]",
-	'listusers-showall' => "Mosta tùit j'utent, comprèis coj con men che 5 modìfiche",
-	'right-viewallusers' => "Varda tùit j'utent ant [[Special:ListUsers|la lista utent]]",
+	'filterlistusers-desc' => "Lassé fòra j'utent ch'a l'han nen modificà da la [[Special:ListUsers|lista dj'utent]]",
+	'listusers-showall' => "Smon-e tùit j'utent, comprèis coj con men che 5 modìfiche",
+	'right-viewallusers' => "Vëdde tùit j'utent ant [[Special:ListUsers|la lista dj'utent]]",
 );
 
 /** Portuguese (Português)
