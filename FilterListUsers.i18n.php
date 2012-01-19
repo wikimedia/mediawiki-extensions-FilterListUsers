@@ -70,6 +70,13 @@ $messages['gl'] = array(
 	'right-viewallusers' => 'Ver todos os usuarios na [[Special:ListUsers|lista de usuarios]]',
 );
 
+/** Hebrew (עברית)
+ * @author Ofekalef
+ */
+$messages['he'] = array(
+	'right-viewallusers' => 'צפייה בכל המשתמשים ב[[Special:ListUsers|רשימת המשתמשים]]',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
