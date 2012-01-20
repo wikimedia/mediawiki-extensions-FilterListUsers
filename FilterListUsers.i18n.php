@@ -43,6 +43,15 @@ $messages['de'] = array(
 	'right-viewallusers' => 'Alle Benutzer in der [[Special:ListUsers|Benutzerliste]] ansehen',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'filterlistusers-desc' => 'Wufiltrujo wužywarjow z [[Special:ListUsers|lisćiny wužywarjow]] , kótarež njejsu nic wobźěłali',
+	'listusers-showall' => 'Wšych wužywarjow pokazaś, inkluziwnje tych, kótarež su mjenjej ako 5 změnow pśewjadli',
+	'right-viewallusers' => 'Wšych wužywarjow w [[Special:ListUsers|lisćinje wužywarjow]] se woglědaś',
+);
+
 /** Finnish (Suomi)
  * @author Crt
  * @author Jack Phoenix <jack@countervandalism.net>
