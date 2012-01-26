@@ -80,9 +80,11 @@ $messages['gl'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Nirofir
  * @author Ofekalef
  */
 $messages['he'] = array(
+	'listusers-showall' => 'הצגת כל המשתמשים, כולל אלה עם פחות מ-5 עריכות',
 	'right-viewallusers' => 'צפייה בכל המשתמשים ב[[Special:ListUsers|רשימת המשתמשים]]',
 );
 
