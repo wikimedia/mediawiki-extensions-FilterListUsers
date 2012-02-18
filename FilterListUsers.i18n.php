@@ -80,10 +80,12 @@ $messages['gl'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Nirofir
  * @author Ofekalef
  */
 $messages['he'] = array(
+	'filterlistusers-desc' => 'סינון משתמשים שלא ערכו מתוך [[Special:ListUsers|רשימת המשתמשים]]',
 	'listusers-showall' => 'הצגת כל המשתמשים, כולל אלה עם פחות מ-5 עריכות',
 	'right-viewallusers' => 'צפייה בכל המשתמשים ב[[Special:ListUsers|רשימת המשתמשים]]',
 );
