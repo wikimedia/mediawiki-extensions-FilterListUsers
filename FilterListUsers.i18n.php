@@ -147,9 +147,11 @@ $messages['nl'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Woytecr
  */
 $messages['pl'] = array(
+	'filterlistusers-desc' => 'Filtruje użytkowników, którzy nie byli edytowani z [[Special:ListUsers|listy użytkowników]]',
 	'listusers-showall' => 'Pokaż wszystkich użytkowników, włączając także posiadających mniej niż 5 edycji',
 	'right-viewallusers' => 'Zobacz wszystkich na [[Special:ListUsers|liście użytkowników]]',
 );
