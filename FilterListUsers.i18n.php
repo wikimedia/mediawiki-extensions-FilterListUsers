@@ -52,6 +52,15 @@ $messages['dsb'] = array(
 	'right-viewallusers' => 'Wšych wužywarjow w [[Special:ListUsers|lisćinje wužywarjow]] se woglědaś',
 );
 
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'filterlistusers-desc' => 'Filtra los usuarios que no han editado desde [[Special:ListUsers|la lista de usuarios]]',
+	'listusers-showall' => 'Mostrar todos los usuarios, incluyendo aquellos con menos de 5 ediciones',
+	'right-viewallusers' => 'Ver todos los usuarios de [[Special:ListUsers|la lista de usuarios]]',
+);
+
 /** Finnish (Suomi)
  * @author Crt
  * @author Jack Phoenix <jack@countervandalism.net>
