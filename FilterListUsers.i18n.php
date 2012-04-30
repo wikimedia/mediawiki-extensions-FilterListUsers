@@ -119,11 +119,12 @@ $messages['ia'] = array(
 
 /** Japanese (日本語)
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'filterlistusers-desc' => '[[Special:ListUsers|利用者の一覧]]から編集していないユーザーをフィルタアウトします。',
-	'listusers-showall' => '編集 5回未満の者を含む、すべての利用者を表示',
-	'right-viewallusers' => '[[Special:ListUsers|利用者の一覧]]からすべてのユーザーを表示',
+	'filterlistusers-desc' => '編集したことがない利用者を[[Special:ListUsers|利用者の一覧]]から除外する',
+	'listusers-showall' => 'すべての利用者（編集5回未満を含む）を表示',
+	'right-viewallusers' => '[[Special:ListUsers|利用者の一覧]]ですべての利用者を閲覧',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
