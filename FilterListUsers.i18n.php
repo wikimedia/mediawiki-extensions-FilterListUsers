@@ -117,6 +117,15 @@ $messages['ia'] = array(
 	'right-viewallusers' => 'Vider tote le usatores in [[Special:ListUsers|le lista de usatores]]',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'filterlistusers-desc' => 'Filtra gli utenti che non hanno editato dalla [[Special:ListUsers|lista utenti]]',
+	'listusers-showall' => 'Mostra tutti gli utenti, compresi quelli con meno di 5 modifiche',
+	'right-viewallusers' => 'Visualizza tutti gli utenti nella [[Special:ListUsers|lista utenti]]',
+);
+
 /** Japanese (日本語)
  * @author Schu
  * @author Shirayuki
