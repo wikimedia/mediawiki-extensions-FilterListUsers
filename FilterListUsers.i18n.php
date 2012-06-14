@@ -52,7 +52,7 @@ $messages['dsb'] = array(
 	'right-viewallusers' => 'Wšych wužywarjow w [[Special:ListUsers|lisćinje wužywarjow]] se woglědaś',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -61,7 +61,7 @@ $messages['es'] = array(
 	'right-viewallusers' => 'Ver todos los usuarios de [[Special:ListUsers|la lista de usuarios]]',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Jack Phoenix <jack@countervandalism.net>
  */
@@ -70,7 +70,7 @@ $messages['fi'] = array(
 	'right-viewallusers' => 'Tarkastella kaikkia käyttäjiä [[Special:ListUsers|käyttäjälistassa]]',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -108,7 +108,7 @@ $messages['hsb'] = array(
 	'right-viewallusers' => 'Wšěch wužiwarjow w [[Special:ListUsers|lisćinje wužiwarjow]] sej wobhladać',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -117,7 +117,7 @@ $messages['ia'] = array(
 	'right-viewallusers' => 'Vider tote le usatores in [[Special:ListUsers|le lista de usatores]]',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -145,7 +145,7 @@ $messages['lb'] = array(
 	'right-viewallusers' => 'All Benotzer an der [[Special:ListUsers|Benotzerlëscht]] weisen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -165,7 +165,7 @@ $messages['nl'] = array(
 	'right-viewallusers' => 'Bekijk alle gebruikers in de [[Special:ListUsers|gebruikerslijst]]',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Woytecr
  */
@@ -185,14 +185,14 @@ $messages['pms'] = array(
 	'right-viewallusers' => "Vëdde tùit j'utent ant [[Special:ListUsers|la lista dj'utent]]",
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author SandroHc
  */
 $messages['pt'] = array(
 	'filterlistusers-desc' => 'Filtrar utilizadores que não fizeram edições [[Special:ListUsers|lista de utilizadores]]',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Askarmuk
  */
 $messages['ru'] = array(
