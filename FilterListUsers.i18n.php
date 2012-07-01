@@ -24,7 +24,7 @@ $messages['qqq'] = array(
 	'right-viewallusers' => '{{doc-right|viewallusers}}',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -43,7 +43,7 @@ $messages['de'] = array(
 	'right-viewallusers' => 'Alle Benutzer in der [[Special:ListUsers|Benutzerliste]] ansehen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -79,7 +79,7 @@ $messages['fr'] = array(
 	'right-viewallusers' => 'Voir tous les utilisateurs dans [[Special:ListUsers|la liste des utilisateurs]]',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -99,7 +99,7 @@ $messages['he'] = array(
 	'right-viewallusers' => 'צפייה בכל המשתמשים ב[[Special:ListUsers|רשימת המשתמשים]]',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
