@@ -201,3 +201,12 @@ $messages['ru'] = array(
 	'right-viewallusers' => 'Показать всех участников в [[Special:ListUsers|списке участников]]',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'filterlistusers-desc' => 'Nagsasalang papalabas ng mga tagagamit na hindi namatnugot mula sa [[Special:ListUsers|listahan ng mga tagagamit]]',
+	'listusers-showall' => 'Ipakita ang lahat ng mga tagagamkt, kasama na iyong mayroong mas mababa kaysa sa 5 mga pamamatnugot',
+	'right-viewallusers' => 'Tingnan ang lahat ng mga tagagamit na nasa loob ng [[Special:ListUsers|listahan ng tagagamit]]',
+);
+
