@@ -136,6 +136,15 @@ $messages['ja'] = array(
 	'right-viewallusers' => '[[Special:ListUsers|利用者の一覧]]ですべての利用者を閲覧',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'filterlistusers-desc' => 'Kann Metmaacher uß dä [[Special:ListUsers|Metmaacherlėß]] ußblände, di koum Sigge em Wiki verändert han.',
+	'listusers-showall' => 'Zeisch alle Metmaacher, och die winnijer wi fönnef Sigge em Wiki verändert han.',
+	'right-viewallusers' => 'Alle Metmaacher uß dä [[Special:ListUsers|Metmaacherlėß]] zeije lohße',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
