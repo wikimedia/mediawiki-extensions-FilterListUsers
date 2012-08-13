@@ -210,6 +210,13 @@ $messages['ru'] = array(
 	'right-viewallusers' => 'Показать всех участников в [[Special:ListUsers|списке участников]]',
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'right-viewallusers' => 'Visa alla användare i [[Special:ListUsers|användarlistan]]',
+);
+
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  */
