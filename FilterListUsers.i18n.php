@@ -24,7 +24,7 @@ $messages['qqq'] = array(
 	'right-viewallusers' => '{{doc-right|viewallusers}}',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
