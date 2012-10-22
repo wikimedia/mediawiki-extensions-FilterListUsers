@@ -232,4 +232,3 @@ $messages['tl'] = array(
 	'listusers-showall' => 'Ipakita ang lahat ng mga tagagamkt, kasama na iyong mayroong mas mababa kaysa sa 5 mga pamamatnugot',
 	'right-viewallusers' => 'Tingnan ang lahat ng mga tagagamit na nasa loob ng [[Special:ListUsers|listahan ng tagagamit]]',
 );
-
