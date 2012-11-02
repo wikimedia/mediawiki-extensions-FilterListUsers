@@ -232,3 +232,12 @@ $messages['tl'] = array(
 	'listusers-showall' => 'Ipakita ang lahat ng mga tagagamkt, kasama na iyong mayroong mas mababa kaysa sa 5 mga pamamatnugot',
 	'right-viewallusers' => 'Tingnan ang lahat ng mga tagagamit na nasa loob ng [[Special:ListUsers|listahan ng tagagamit]]',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'filterlistusers-desc' => '从[[Special:ListUsers|用户列表]]中过滤掉没有编辑过的用户',
+	'listusers-showall' => '显示所有用户，包括那些少于5次编辑的用户',
+	'right-viewallusers' => '在[[Special:ListUsers|用户列表]]中查看所有用户',
+);
