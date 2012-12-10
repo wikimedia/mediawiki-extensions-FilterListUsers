@@ -171,7 +171,7 @@ $messages['mk'] = array(
 $messages['nl'] = array(
 	'filterlistusers-desc' => 'Filtert gebruikers die nog geen bewerking hebben gemaakt uit de [[Special:ListUsers|gebruikerslijst]]',
 	'listusers-showall' => 'Geef alle gebruikers weer, ook gebruikers met minder dan 5 bewerkingen',
-	'right-viewallusers' => 'Bekijk alle gebruikers in de [[Special:ListUsers|gebruikerslijst]]',
+	'right-viewallusers' => 'Alle gebruikers in de [[Special:ListUsers|gebruikerslijst]] bekijken',
 );
 
 /** Polish (polski)
