@@ -18,9 +18,11 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'filterlistusers-desc' => '{{desc|name=Filter List Users|url=http://www.mediawiki.org/wiki/Extension:FilterListUsers}}',
 	'right-viewallusers' => '{{doc-right|viewallusers}}',
 );
 
@@ -231,6 +233,15 @@ $messages['tl'] = array(
 	'filterlistusers-desc' => 'Nagsasalang papalabas ng mga tagagamit na hindi namatnugot mula sa [[Special:ListUsers|listahan ng mga tagagamit]]',
 	'listusers-showall' => 'Ipakita ang lahat ng mga tagagamkt, kasama na iyong mayroong mas mababa kaysa sa 5 mga pamamatnugot',
 	'right-viewallusers' => 'Tingnan ang lahat ng mga tagagamit na nasa loob ng [[Special:ListUsers|listahan ng tagagamit]]',
+);
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'filterlistusers-desc' => 'Не показувати у [[Special:ListUsers|списку]] користувачів, що не робили редагувань.',
+	'listusers-showall' => 'Показати усіх користувачів, включно з тими, у кого менше, ніж 5 редагувань',
+	'right-viewallusers' => 'Перегляд усіх користувачів у [[Special:ListUsers|списку користувачів]]',
 );
 
 /** Simplified Chinese (中文（简体）‎)
