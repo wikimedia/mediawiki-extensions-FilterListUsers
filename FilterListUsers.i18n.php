@@ -119,6 +119,15 @@ $messages['ia'] = array(
 	'right-viewallusers' => 'Vider tote le usatores in [[Special:ListUsers|le lista de usatores]]',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'filterlistusers-desc' => 'Menyaring keluar pengguna yang belum menyunting dari [[Special:ListUsers|daftar pengguna]]',
+	'listusers-showall' => 'Tampilkan semua pengguna, termasuk yang kurang dari 5 suntingan',
+	'right-viewallusers' => 'Lihat semua pengguna di [[Special:ListUsers|daftar pengguna]]',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
