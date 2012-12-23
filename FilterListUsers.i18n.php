@@ -174,6 +174,14 @@ $messages['mk'] = array(
 	'right-viewallusers' => 'Погледајте ги сите корисници на [[Special:ListUsers|списокот на корисници]]',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'filterlistusers-desc' => 'Tiffiltra l-utenti kollha li ma mmodifikawx mil-[[Special:ListUsers|lista tal-utenti]]',
+	'listusers-showall' => "Uri l-utenti kollha, inklużi dawk b'inqas minn 5 modifiki",
+);
+
 /** Dutch (Nederlands)
  * @author McDutchie
  * @author Mitchel Corstjens
