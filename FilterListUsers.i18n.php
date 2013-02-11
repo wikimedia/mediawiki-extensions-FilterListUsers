@@ -26,6 +26,15 @@ $messages['qqq'] = array(
 	'right-viewallusers' => '{{doc-right|viewallusers}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'filterlistusers-desc' => "Filtriar los usuarios que nun editaron dende [[Special:ListUsers|la llista d'usuarios]]",
+	'listusers-showall' => 'Amosar tolos usuarios, incluyendo los que tienen menos de 5 ediciones',
+	'right-viewallusers' => "Ver tolos usuarios de [[Special:ListUsers|la llista d'usuarios]]",
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
