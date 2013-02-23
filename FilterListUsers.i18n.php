@@ -156,6 +156,15 @@ $messages['ja'] = array(
 	'right-viewallusers' => '[[Special:ListUsers|利用者の一覧]]ですべての利用者を閲覧',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'filterlistusers-desc' => '[[Special:ListUsers|사용자 목록]]에서 편집하지 않은 사용자를 필터합니다',
+	'listusers-showall' => '편집 5회보다 적은 사용자를 포함한 모든 사용자 보기',
+	'right-viewallusers' => '[[Special:ListUsers|사용자 목록]]에서 모든 사용자 보기',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
