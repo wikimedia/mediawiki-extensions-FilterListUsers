@@ -152,7 +152,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'filterlistusers-desc' => '編集したことがない利用者を[[Special:ListUsers|利用者の一覧]]から除外する',
-	'listusers-showall' => 'すべての利用者（編集5回未満を含む）を表示',
+	'listusers-showall' => 'すべての利用者 (編集5回未満を含む) を表示',
 	'right-viewallusers' => '[[Special:ListUsers|利用者の一覧]]ですべての利用者を閲覧',
 );
 
@@ -160,7 +160,7 @@ $messages['ja'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'filterlistusers-desc' => '[[Special:ListUsers|사용자 목록]]에서 편집하지 않은 사용자를 필터합니다',
+	'filterlistusers-desc' => '[[Special:ListUsers|사용자 목록]]에서 편집하지 않은 사용자를 제외합니다',
 	'listusers-showall' => '편집 5회보다 적은 사용자를 포함한 모든 사용자 보기',
 	'right-viewallusers' => '[[Special:ListUsers|사용자 목록]]에서 모든 사용자 보기',
 );
