@@ -183,6 +183,15 @@ $messages['lb'] = array(
 	'right-viewallusers' => 'All Benotzer an der [[Special:ListUsers|Benotzerlëscht]] weisen',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'filterlistusers-desc' => 'Sariang kalua pangguno nan alun manyuntiang dari [[Special:ListUsers|dafta pangguno]]',
+	'listusers-showall' => 'Tampilkan sado pangguno, tamasuak nan kurang dari 5 suntiangan',
+	'right-viewallusers' => 'Lihek sado pangguno di [[Special:ListUsers|dafta pangguno]]',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
