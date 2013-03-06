@@ -247,6 +247,13 @@ $messages['pt'] = array(
 	'filterlistusers-desc' => 'Filtrar utilizadores que não fizeram edições [[Special:ListUsers|lista de utilizadores]]',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'right-viewallusers' => "Vide tutte le utinde jndr'à [[Special:ListUsers|l'elenghe de le utinde]]",
+);
+
 /** Russian (русский)
  * @author Askarmuk
  */
