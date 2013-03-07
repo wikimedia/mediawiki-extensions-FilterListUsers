@@ -251,6 +251,7 @@ $messages['pt'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'listusers-showall' => "Fà vedè tutte le utinde, 'ngludenne chidde cu mene de 5 cangiaminde",
 	'right-viewallusers' => "Vide tutte le utinde jndr'à [[Special:ListUsers|l'elenghe de le utinde]]",
 );
 
