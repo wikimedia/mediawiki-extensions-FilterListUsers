@@ -251,6 +251,7 @@ $messages['pt'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'filterlistusers-desc' => "Filtre le utinde ca non g'onne fatte cangiaminde da l'[[Special:ListUsers|elenghe utinde]]",
 	'listusers-showall' => "Fà vedè tutte le utinde, 'ngludenne chidde cu mene de 5 cangiaminde",
 	'right-viewallusers' => "Vide tutte le utinde jndr'à [[Special:ListUsers|l'elenghe de le utinde]]",
 );
