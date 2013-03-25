@@ -23,6 +23,7 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'filterlistusers-desc' => '{{desc|name=Filter List Users|url=http://www.mediawiki.org/wiki/Extension:FilterListUsers}}',
+	'listusers-showall' => 'Used as checkbox label, shown only to privileged users.',
 	'right-viewallusers' => '{{doc-right|viewallusers}}',
 );
 
