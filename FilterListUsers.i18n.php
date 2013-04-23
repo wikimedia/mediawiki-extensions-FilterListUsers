@@ -202,6 +202,15 @@ $messages['mk'] = array(
 	'right-viewallusers' => 'Погледајте ги сите корисници на [[Special:ListUsers|списокот на корисници]]',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'filterlistusers-desc' => 'Menapis keluar pengguna-pengguna yang belum pernah menyunting dari [[Special:ListUsers|senarai pengguna]]',
+	'listusers-showall' => 'Paparkan semua pengguna termasuk yang kurang daripada 5 suntingan',
+	'right-viewallusers' => 'Melihat semua pengguna di dalam [[Special:ListUsers|senarai pengguna]]',
+);
+
 /** Maltese (Malti)
  * @author Chrisportelli
  */
