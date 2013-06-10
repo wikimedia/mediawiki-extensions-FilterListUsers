@@ -315,3 +315,12 @@ $messages['zh-hans'] = array(
 	'listusers-showall' => '显示所有用户，包括那些少于5次编辑的用户',
 	'right-viewallusers' => '在[[Special:ListUsers|用户列表]]中查看所有用户',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'filterlistusers-desc' => '從[[Special:ListUsers|用戶列表]]中過濾没有編輯過的用戶',
+	'listusers-showall' => '顯示所有包括少於5次編輯的用戶',
+	'right-viewallusers' => '於[[Special:ListUsers|用戶列表]]查看所有用戶',
+);
