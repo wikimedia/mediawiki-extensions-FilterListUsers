@@ -276,9 +276,12 @@ $messages['ru'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'filterlistusers-desc' => 'Filtrerar bort användare som inte har redigerat från [[Special: ListUsers|användarlistan]]', # Fuzzy
+	'listusers-showall' => 'Visa alla användare, inklusive de med mindre än 5 redigeringar',
 	'right-viewallusers' => 'Visa alla användare i [[Special:ListUsers|användarlistan]]',
 );
 
