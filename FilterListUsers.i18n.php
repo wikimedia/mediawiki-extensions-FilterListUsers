@@ -157,6 +157,15 @@ $messages['ja'] = array(
 	'right-viewallusers' => '[[Special:ListUsers|利用者の一覧]]ですべての利用者を閲覧',
 );
 
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
+ */
+$messages['kk-cyrl'] = array(
+	'filterlistusers-desc' => 'Filters out users that have not edited from [[Special:ListUsers|қатысушылар тізімінен]] өңдеме жасамаған қатысушыларды сүзгілеу',
+	'listusers-showall' => 'Барлық қатысушыларды көрсету, 5 өңдемеден азырақ өңдеме істегендерді қоса алғанда',
+	'right-viewallusers' => '[[Special:ListUsers|Қатысушылар тізімінен]] барлық қатысушыларды көру',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
