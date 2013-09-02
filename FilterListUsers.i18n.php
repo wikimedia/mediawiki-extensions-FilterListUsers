@@ -289,7 +289,7 @@ $messages['ru'] = array(
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
-	'filterlistusers-desc' => 'Filtrerar bort användare som inte har redigerat från [[Special: ListUsers|användarlistan]]', # Fuzzy
+	'filterlistusers-desc' => 'Filtrerar bort användare som inte har redigerat från [[Special:ListUsers|användarlistan]]',
 	'listusers-showall' => 'Visa alla användare, inklusive de med mindre än 5 redigeringar',
 	'right-viewallusers' => 'Visa alla användare i [[Special:ListUsers|användarlistan]]',
 );
