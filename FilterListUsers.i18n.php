@@ -266,6 +266,15 @@ $messages['pt'] = array(
 	'filterlistusers-desc' => 'Filtrar utilizadores que não fizeram edições [[Special:ListUsers|lista de utilizadores]]',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'filterlistusers-desc' => 'Filtra usuários que não editaram da [[Special:ListUsers|lista de usuários]]',
+	'listusers-showall' => 'Exibir todos os usuários, incluindo aqueles com menos de 5 edições',
+	'right-viewallusers' => 'Ver todos os usuários na [[Special:ListUsers|lista de usuários]]',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
