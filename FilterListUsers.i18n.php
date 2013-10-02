@@ -338,10 +338,11 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Cwlin0416
  * @author Justincheng12345
  */
 $messages['zh-hant'] = array(
-	'filterlistusers-desc' => '從[[Special:ListUsers|用戶列表]]中過濾没有編輯過的用戶',
+	'filterlistusers-desc' => '從 [[Special:ListUsers|用戶清單]] 中搜尋没有編輯過的用戶',
 	'listusers-showall' => '顯示所有包括少於5次編輯的用戶',
 	'right-viewallusers' => '於[[Special:ListUsers|用戶列表]]查看所有用戶',
 );
