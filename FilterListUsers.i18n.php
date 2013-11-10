@@ -138,6 +138,15 @@ $messages['id'] = array(
 	'right-viewallusers' => 'Lihat semua pengguna di [[Special:ListUsers|daftar pengguna]]',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'filterlistusers-desc' => 'Sagatenna dagiti agar-aramat a saan pay a nag-urnos manipud ti [[Special:ListUsers|listaan dagiti agar-aramat]]',
+	'listusers-showall' => 'Ipakita amin dagiti agar-aramat, mairaman dagiti adaan iti basbassit ngem 5 nga inur-urnos',
+	'right-viewallusers' => 'Kitaen amin dagiti agar-aramat idiay [[Special:ListUsers|listaan ti agar-aramat]]',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
