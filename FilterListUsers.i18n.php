@@ -338,10 +338,11 @@ $messages['uk'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Xiaomingyan
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
-	'filterlistusers-desc' => '从[[Special:ListUsers|用户列表]]中过滤掉没有编辑过的用户',
+	'filterlistusers-desc' => '滤除[[Special:ListUsers|用户列表]]中没有编辑过的用户',
 	'listusers-showall' => '显示所有用户，包括那些少于5次编辑的用户',
 	'right-viewallusers' => '在[[Special:ListUsers|用户列表]]中查看所有用户',
 );
