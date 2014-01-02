@@ -73,6 +73,15 @@ $messages['es'] = array(
 	'right-viewallusers' => 'Ver todos los usuarios de [[Special:ListUsers|la lista de usuarios]]',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'filterlistusers-desc' => 'فیلتر کردن کاربرانی که فرم ویرایش شده ندارند [[Special:ListUsers|users list]]',
+	'listusers-showall' => 'نمایش همهٔ کاربران، از جمله آنهایی که با کمتر از ۵ ویرایش‌اند',
+	'right-viewallusers' => 'نمایش همهٔ کاربران در [[Special:ListUsers|the user list]]',
+);
+
 /** Finnish (suomi)
  * @author Crt
  * @author Jack Phoenix <jack@countervandalism.net>
