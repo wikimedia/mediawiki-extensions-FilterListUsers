@@ -328,6 +328,14 @@ $messages['ta'] = array(
 	'listusers-showall' => '5 தொகுப்புகளுக்கும் குறைவாகச் செய்த பயனர்கள் உட்பட எல்லோரையும் காட்டு',
 );
 
+/** Telugu (తెలుగు)
+ * @author Chaduvari
+ */
+$messages['te'] = array(
+	'listusers-showall' => 'వాడుకరులందరినీ, 5 మార్పుచేర్పుల కంటే తక్కువ ఉన్నవారితో సహా, చూపిస్తుంది',
+	'right-viewallusers' => 'వాడుకరులందరినీ [[Special:ListUsers|వాడుకరుల జాబితా]]లో చూడండి',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
