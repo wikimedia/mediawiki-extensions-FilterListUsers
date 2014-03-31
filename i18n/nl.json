@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "McDutchie",
+            "Mitchel Corstjens",
+            "Siebrand"
+        ]
+    },
+    "filterlistusers-desc": "Filtert gebruikers die nog geen bewerking hebben gemaakt uit de [[Special:ListUsers|gebruikerslijst]]",
+    "listusers-showall": "Geef alle gebruikers weer, ook gebruikers met minder dan 5 bewerkingen",
+    "right-viewallusers": "Alle gebruikers in de [[Special:ListUsers|gebruikerslijst]] bekijken"
+}

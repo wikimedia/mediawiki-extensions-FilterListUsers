@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Armin1392"
+        ]
+    },
+    "filterlistusers-desc": "فیلتر کردن کاربرانی که فرم ویرایش شده ندارند [[Special:ListUsers|users list]]",
+    "listusers-showall": "نمایش همهٔ کاربران، از جمله آنهایی که با کمتر از ۵ ویرایش‌اند",
+    "right-viewallusers": "نمایش همهٔ کاربران در [[Special:ListUsers|the user list]]"
+}

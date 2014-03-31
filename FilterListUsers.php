@@ -4,7 +4,6 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.0
  * @date February 22, 2010
  * @author Jack Phoenix <jack@countervandalism.net>
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
@@ -18,7 +17,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'FilterListUsers',
-	'version' => '1.0.1',
+	'version' => '1.1.0',
 	'author' => 'Jack Phoenix',
 	'descriptionmsg' => 'filterlistusers-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:FilterListUsers',
@@ -30,6 +29,7 @@ $wgGroupPermissions['sysop']['viewallusers'] = true;
 
 // i18n file
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['FilterListUsers'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['FilterListUsers'] = $dir . 'FilterListUsers.i18n.php';
 
 $wgHooks['SpecialListusersQueryInfo'][] = 'efFilterListUsersAlterQuery';

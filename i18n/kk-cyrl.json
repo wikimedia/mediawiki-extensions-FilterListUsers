@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Arystanbek"
+        ]
+    },
+    "filterlistusers-desc": "Filters out users that have not edited from [[Special:ListUsers|қатысушылар тізімінен]] өңдеме жасамаған қатысушыларды сүзгілеу",
+    "listusers-showall": "Барлық қатысушыларды көрсету, 5 өңдемеден азырақ өңдеме істегендерді қоса алғанда",
+    "right-viewallusers": "[[Special:ListUsers|Қатысушылар тізімінен]] барлық қатысушыларды көру"
+}

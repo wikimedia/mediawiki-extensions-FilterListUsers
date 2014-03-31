@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Iwan Novirion"
+        ]
+    },
+    "filterlistusers-desc": "Sariang kalua pangguno nan alun manyuntiang dari [[Special:ListUsers|daftar pangguno]]",
+    "listusers-showall": "Tampilkan sado pangguno, tamasuak nan kurang dari 5 suntiangan",
+    "right-viewallusers": "Caliak kasado pangguno di [[Special:ListUsers|daftar pangguno]]"
+}
