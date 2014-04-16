@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "McDutchie"
-        ]
-    },
-    "filterlistusers-desc": "Elimina le usatores que non ha facite modificationes del [[Special:ListUsers|lista de usatores]]",
-    "listusers-showall": "Monstrar tote le usatores, includente illes que ha facite minus de 5 modificationes",
-    "right-viewallusers": "Vider tote le usatores in [[Special:ListUsers|le lista de usatores]]"
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"filterlistusers-desc": "Elimina le usatores que non ha facite modificationes del [[Special:ListUsers|lista de usatores]]",
+	"listusers-showall": "Monstrar tote le usatores, includente illes que ha facite minus de 5 modificationes",
+	"right-viewallusers": "Vider tote le usatores in [[Special:ListUsers|le lista de usatores]]"
 }

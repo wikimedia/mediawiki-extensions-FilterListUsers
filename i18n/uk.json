@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ата"
-        ]
-    },
-    "filterlistusers-desc": "Не показувати у [[Special:ListUsers|списку]] користувачів, що не робили редагувань.",
-    "listusers-showall": "Показати усіх користувачів, включно з тими, у кого менше, ніж 5 редагувань",
-    "right-viewallusers": "Перегляд усіх користувачів у [[Special:ListUsers|списку користувачів]]"
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"filterlistusers-desc": "Не показувати у [[Special:ListUsers|списку]] користувачів, що не робили редагувань.",
+	"listusers-showall": "Показати усіх користувачів, включно з тими, у кого менше, ніж 5 редагувань",
+	"right-viewallusers": "Перегляд усіх користувачів у [[Special:ListUsers|списку користувачів]]"
 }

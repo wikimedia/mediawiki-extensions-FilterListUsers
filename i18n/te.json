@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chaduvari"
-        ]
-    },
-    "listusers-showall": "వాడుకరులందరినీ, 5 మార్పుచేర్పుల కంటే తక్కువ ఉన్నవారితో సహా, చూపిస్తుంది",
-    "right-viewallusers": "వాడుకరులందరినీ [[Special:ListUsers|వాడుకరుల జాబితా]]లో చూడండి"
+	"@metadata": {
+		"authors": [
+			"Chaduvari"
+		]
+	},
+	"listusers-showall": "వాడుకరులందరినీ, 5 మార్పుచేర్పుల కంటే తక్కువ ఉన్నవారితో సహా, చూపిస్తుంది",
+	"right-viewallusers": "వాడుకరులందరినీ [[Special:ListUsers|వాడుకరుల జాబితా]]లో చూడండి"
 }

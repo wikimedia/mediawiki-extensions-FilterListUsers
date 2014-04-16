@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "filterlistusers-desc": "Filtra os usuarios que non fixeran edicións na [[Special:ListUsers|lista de usuarios]]",
-    "listusers-showall": "Mostrar todos os usuarios, incluíndo aqueles con menos de 5 edicións",
-    "right-viewallusers": "Ver todos os usuarios na [[Special:ListUsers|lista de usuarios]]"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"filterlistusers-desc": "Filtra os usuarios que non fixeran edicións na [[Special:ListUsers|lista de usuarios]]",
+	"listusers-showall": "Mostrar todos os usuarios, incluíndo aqueles con menos de 5 edicións",
+	"right-viewallusers": "Ver todos os usuarios na [[Special:ListUsers|lista de usuarios]]"
 }

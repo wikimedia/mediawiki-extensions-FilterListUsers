@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cwlin0416",
-            "Justincheng12345"
-        ]
-    },
-    "filterlistusers-desc": "從 [[Special:ListUsers|用戶清單]] 中搜尋没有編輯過的用戶",
-    "listusers-showall": "顯示所有包括少於5次編輯的用戶",
-    "right-viewallusers": "於[[Special:ListUsers|用戶列表]]查看所有用戶"
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Justincheng12345"
+		]
+	},
+	"filterlistusers-desc": "從 [[Special:ListUsers|用戶清單]] 中搜尋没有編輯過的用戶",
+	"listusers-showall": "顯示所有包括少於5次編輯的用戶",
+	"right-viewallusers": "於[[Special:ListUsers|用戶列表]]查看所有用戶"
 }

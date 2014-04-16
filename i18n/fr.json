@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko"
-        ]
-    },
-    "filterlistusers-desc": "Éliminer les utilisateurs qui n'ont rien édité de [[Special:ListUsers|la liste des utilisateurs]]",
-    "listusers-showall": "Afficher tous les utilisateurs, y compris ceux ayant fait moins de 5 modifications",
-    "right-viewallusers": "Voir tous les utilisateurs dans [[Special:ListUsers|la liste des utilisateurs]]"
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"filterlistusers-desc": "Éliminer les utilisateurs qui n'ont rien édité de [[Special:ListUsers|la liste des utilisateurs]]",
+	"listusers-showall": "Afficher tous les utilisateurs, y compris ceux ayant fait moins de 5 modifications",
+	"right-viewallusers": "Voir tous les utilisateurs dans [[Special:ListUsers|la liste des utilisateurs]]"
 }

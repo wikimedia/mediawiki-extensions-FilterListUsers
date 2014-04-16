@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Robby"
-        ]
-    },
-    "filterlistusers-desc": "Filtert déi Benotzer aus der [[Special:ListUsers|Benotzerlëscht]] eraus déi näischt geännert hunn",
-    "listusers-showall": "All Benotzer weisen, och déi mat manner wéi 5 Ännerungen",
-    "right-viewallusers": "All Benotzer an der [[Special:ListUsers|Benotzerlëscht]] weisen"
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"filterlistusers-desc": "Filtert déi Benotzer aus der [[Special:ListUsers|Benotzerlëscht]] eraus déi näischt geännert hunn",
+	"listusers-showall": "All Benotzer weisen, och déi mat manner wéi 5 Ännerungen",
+	"right-viewallusers": "All Benotzer an der [[Special:ListUsers|Benotzerlëscht]] weisen"
 }

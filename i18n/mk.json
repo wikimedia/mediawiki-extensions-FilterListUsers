@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "filterlistusers-desc": "Ги филтрира корисниците што не урадувале од [[Special:ListUsers|списокот на корисници]]",
-    "listusers-showall": "Прикажи ги сите корисници, вклучувајќи ги оние со помалку од 5 уредувања",
-    "right-viewallusers": "Погледајте ги сите корисници на [[Special:ListUsers|списокот на корисници]]"
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"filterlistusers-desc": "Ги филтрира корисниците што не урадувале од [[Special:ListUsers|списокот на корисници]]",
+	"listusers-showall": "Прикажи ги сите корисници, вклучувајќи ги оние со помалку од 5 уредувања",
+	"right-viewallusers": "Погледајте ги сите корисници на [[Special:ListUsers|списокот на корисници]]"
 }

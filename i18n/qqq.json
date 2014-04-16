@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki",
-            "Umherirrender"
-        ]
-    },
-    "filterlistusers-desc": "{{desc|name=Filter List Users|url=http://www.mediawiki.org/wiki/Extension:FilterListUsers}}",
-    "listusers-showall": "Used as checkbox label, shown only to privileged users.",
-    "right-viewallusers": "{{doc-right|viewallusers}}"
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"filterlistusers-desc": "{{desc|name=Filter List Users|url=http://www.mediawiki.org/wiki/Extension:FilterListUsers}}",
+	"listusers-showall": "Used as checkbox label, shown only to privileged users.",
+	"right-viewallusers": "{{doc-right|viewallusers}}"
 }

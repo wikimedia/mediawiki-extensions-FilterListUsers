@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Crt",
-            "Jack Phoenix <jack@countervandalism.net>"
-        ]
-    },
-    "listusers-showall": "Näytä kaikki käyttäjät, mukaan lukien ne, joilla on alle viisi muokkausta",
-    "right-viewallusers": "Tarkastella kaikkia käyttäjiä [[Special:ListUsers|käyttäjälistassa]]"
+	"@metadata": {
+		"authors": [
+			"Crt",
+			"Jack Phoenix <jack@countervandalism.net>"
+		]
+	},
+	"listusers-showall": "Näytä kaikki käyttäjät, mukaan lukien ne, joilla on alle viisi muokkausta",
+	"right-viewallusers": "Tarkastella kaikkia käyttäjiä [[Special:ListUsers|käyttäjälistassa]]"
 }
