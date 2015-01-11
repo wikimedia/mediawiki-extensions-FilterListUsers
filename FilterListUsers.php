@@ -4,20 +4,16 @@
  *
  * @file
  * @ingroup Extensions
- * @date February 22, 2010
+ * @date 4 January 2015
  * @author Jack Phoenix <jack@countervandalism.net>
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
-
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( "This is not a valid entry point.\n" );
-}
 
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'FilterListUsers',
-	'version' => '1.1.0',
+	'version' => '1.3',
 	'author' => 'Jack Phoenix',
 	'descriptionmsg' => 'filterlistusers-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:FilterListUsers',
@@ -27,10 +23,8 @@ $wgExtensionCredits['other'][] = array(
 $wgAvailableRights[] = 'viewallusers';
 $wgGroupPermissions['sysop']['viewallusers'] = true;
 
-// i18n file
-$dir = dirname( __FILE__ ) . '/';
+// i18n files
 $wgMessagesDirs['FilterListUsers'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['FilterListUsers'] = $dir . 'FilterListUsers.i18n.php';
 
 $wgHooks['SpecialListusersQueryInfo'][] = 'efFilterListUsersAlterQuery';
 /**
@@ -38,9 +32,9 @@ $wgHooks['SpecialListusersQueryInfo'][] = 'efFilterListUsersAlterQuery';
  * or when the user isn't privileged, only users with 5 (or more) edits will be
  * shown.
  *
- * @param $usersPager Object: instance of UsersPager
- * @param $query Array: SQL query parameters
- * @return Boolean: true
+ * @param UsersPager $usersPager
+ * @param array $query SQL query parameters
+ * @return bool
  */
 function efFilterListUsersAlterQuery( $usersPager, &$query ) {
 	global $wgRequest, $wgUser;
@@ -58,8 +52,11 @@ function efFilterListUsersAlterQuery( $usersPager, &$query ) {
 	)
 	{
 		$dbr = wfGetDB( DB_SLAVE );
-		$revisionTable = $dbr->tableName( 'revision' );
-		$query['tables'] .= " JOIN (SELECT rev_user, COUNT(*) AS cnt FROM {$revisionTable} GROUP BY rev_user HAVING cnt > 5) AS tmp ON user_id = rev_user ";
+		$query['tables'][] = 'revision';
+		$query['fields'] = ( array_merge( $query['fields'], array( 'rev_user', 'COUNT(*) AS cnt' ) ) );
+		$query['options']['GROUP BY'] = 'rev_user';
+		$query['options']['HAVING'] = 'cnt > 5';
+		$query['join_conds']['revision'] = array( 'JOIN', 'user_id = rev_user' );
 	}
 
 	return true;
@@ -69,9 +66,9 @@ $wgHooks['SpecialListusersHeaderForm'][] = 'efFilterListUsersHeaderForm';
 /**
  * Adds the "Show all users" checkbox for privileged users.
  *
- * @param $usersPager Object: instance of UsersPager
- * @param $out String: HTML output
- * @return Boolean: true
+ * @param UsersPager $usersPager
+ * @param string $out HTML output
+ * @return bool
  */
 function efFilterListUsersHeaderForm( $usersPager, &$out ) {
 	global $wgRequest, $wgUser;
@@ -79,7 +76,7 @@ function efFilterListUsersHeaderForm( $usersPager, &$out ) {
 	// Show this checkbox only to privileged users
 	if ( $wgUser->isAllowed( 'viewallusers' ) ) {
 		$out .= Xml::checkLabel(
-			wfMsg( 'listusers-showall' ),
+			wfMessage( 'listusers-showall' )->plain(),
 			'showall',
 			'showall',
 			$wgRequest->getVal( 'showall' )
