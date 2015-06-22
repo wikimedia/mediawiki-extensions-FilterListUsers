@@ -1,0 +1,36 @@
+{
+	"name": "FilterListUsers",
+	"version": "1.4",
+	"author": [
+		"Jack Phoenix"
+	],
+	"license-name": "GPLv2+",
+	"url": "https://www.mediawiki.org/wiki/Extension:FilterListUsers",
+	"descriptionmsg": "filterlistusers-desc",
+	"type": "other",
+	"MessagesDirs": {
+		"FilterListUsers": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"FilterListUsers": "FilterListUsers.class.php"
+	},
+	"Hooks": {
+		"SpecialListusersQueryInfo": [
+			"FilterListUsers::onSpecialListusersQueryInfo"
+		],
+		"SpecialListusersHeaderForm": [
+			"FilterListUsers::onSpecialListusersHeaderForm"
+		]
+	},
+	"AvailableRights": [
+		"viewallusers"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"viewallusers": true
+		}
+	},
+	"manifest_version": 1
+}
