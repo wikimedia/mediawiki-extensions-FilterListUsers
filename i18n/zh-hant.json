@@ -7,6 +7,6 @@
 		]
 	},
 	"filterlistusers-desc": "在 [[Special:ListUsers|使用者清單]] 中搜尋没有編輯過的使用者",
-	"listusers-showall": "顯示所有包括少於5次編輯的用戶",
+	"listusers-showall": "顯示所有包括少於5次編輯的使用者",
 	"right-viewallusers": "於[[Special:ListUsers|使用者清單]]檢視所有使用者"
 }
