@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Crt",
-			"Jack Phoenix <jack@countervandalism.net>"
+			"Jack Phoenix <jack@countervandalism.net>",
+			"01miki10"
 		]
 	},
+	"filterlistusers-desc": "Suodattaa käyttäjät, jotka eivät ole muokanneet [[Special:ListUsers|käyttäjäluettelosta]]",
 	"listusers-showall": "Näytä kaikki käyttäjät, mukaan lukien ne, joilla on alle viisi muokkausta",
 	"right-viewallusers": "Tarkastella kaikkia käyttäjiä [[Special:ListUsers|käyttäjälistassa]]"
 }
