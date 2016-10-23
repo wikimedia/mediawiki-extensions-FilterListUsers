@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"filterlistusers-desc": "O filtra i utenti che no han editou ninte da-a [[Special:ListUsers|lista utenti]]",
+	"listusers-showall": "Mostra tutti i utenti, compreixi quelli con meno de 5 modifiche",
+	"right-viewallusers": "Vixualizza tutti i utenti inta [[Special:ListUsers|lista utenti]]"
+}
