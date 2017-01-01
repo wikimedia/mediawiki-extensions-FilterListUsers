@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"filterlistusers-desc": "Filtrerer ut brukere som ikke har redigert fra [[Special:ListUsers|brukerlista]]",
+	"listusers-showall": "Vis alle brukere, inkludert de med mindre enn 5 redigeringer",
+	"right-viewallusers": "Vis alle brukere i [[Special:ListUsers|brukerlista]]"
+}
