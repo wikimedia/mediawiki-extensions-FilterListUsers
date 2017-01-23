@@ -8,7 +8,6 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 class FilterListUsers {
-
 	/**
 	 * Alters the SQL query so that when there is no "showall" parameter in the
 	 * URL or when the user isn't privileged, only users with 5 (or more) edits
@@ -19,25 +18,22 @@ class FilterListUsers {
 	 * @return bool
 	 */
 	public static function onSpecialListusersQueryInfo( $usersPager, &$query ) {
-		global $wgRequest, $wgUser;
+		global $wgRequest, $wgUser, $wgFilterListUsersMinimumEdits, $wgFilterListUsersExemptGroups;
 
 		// Members of these groups will always be shown if the user selects this
 		// group from the dropdown menu, no matter if they haven't edited the wiki
 		// at all
-		$exemptGroups = array(
-			'sysop', 'bureaucrat', 'steward', 'staff', 'globalbot'
-		);
 
 		if (
-			!$wgRequest->getVal( 'showall' ) && !in_array( $usersPager->requestedGroup, $exemptGroups ) ||
-			!$wgUser->isAllowed( 'viewallusers' ) && !in_array( $usersPager->requestedGroup, $exemptGroups )
+			!$wgRequest->getVal( 'showall' ) && !in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups ) ||
+			!$wgUser->isAllowed( 'viewallusers' ) && !in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups )
 		)
 		{
 			$dbr = wfGetDB( DB_SLAVE );
 			$query['tables'][] = 'revision';
 			$query['fields'] = ( array_merge( $query['fields'], array( 'rev_user', 'COUNT(*) AS cnt' ) ) );
 			$query['options']['GROUP BY'] = 'rev_user';
-			$query['options']['HAVING'] = 'cnt > 5';
+			$query['options']['HAVING'] = 'cnt > ' . $wgFilterListUsersMinimumEdits;
 			$query['join_conds']['revision'] = array( 'JOIN', 'user_id = rev_user' );
 		}
 

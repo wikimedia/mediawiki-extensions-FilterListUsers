@@ -1,6 +1,6 @@
 {
 	"name": "FilterListUsers",
-	"version": "1.4",
+	"version": "1.5",
 	"author": [
 		"Jack Phoenix"
 	],
@@ -15,6 +15,16 @@
 	},
 	"AutoloadClasses": {
 		"FilterListUsers": "FilterListUsers.class.php"
+	},
+	"config": {
+		"FilterListUsersMinimumEdits": 5,
+		"FilterListUsersExemptGroups": [
+			"sysop",
+			"bureaucrat",
+			"steward",
+			"staff",
+			"globalbot"
+		]
 	},
 	"Hooks": {
 		"SpecialListusersQueryInfo": [
