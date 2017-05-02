@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Armando-Martin"
+			"Armando-Martin",
+			"Fitoschido"
 		]
 	},
 	"filterlistusers-desc": "Filtra los usuarios que no han editado desde [[Special:ListUsers|la lista de usuarios]]",
-	"listusers-showall": "Mostrar todos los usuarios, incluyendo aquellos con menos de 5 ediciones",
+	"listusers-showall": "Mostrar todos los usuarios, incluidos aquellos con menos de 5 ediciones",
 	"right-viewallusers": "Ver todos los usuarios de [[Special:ListUsers|la lista de usuarios]]"
 }
