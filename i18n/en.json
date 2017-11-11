@@ -1,7 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jack Phoenix <jack@countervandalism.net>"
+			"Jack Phoenix"
 		]
 	},
 	"filterlistusers-desc": "Filters out users that have not edited from [[Special:ListUsers|users list]]",
