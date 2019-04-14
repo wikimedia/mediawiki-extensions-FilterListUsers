@@ -6,5 +6,6 @@
 	},
 	"filterlistusers-desc": "Filtert déi Benotzer aus der [[Special:ListUsers|Benotzerlëscht]] eraus déi näischt geännert hunn",
 	"listusers-showall": "All Benotzer weisen, och déi mat manner wéi 5 Ännerungen",
+	"action-viewallusers": "All Benotzer an der Benotzerlëscht weisen",
 	"right-viewallusers": "All Benotzer an der [[Special:ListUsers|Benotzerlëscht]] weisen"
 }

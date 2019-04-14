@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"filterlistusers-desc": "تصفية المستخدمين الذين لم يحرروا من [[Special:ListUsers|قائمة المستخدمين]]",
 	"listusers-showall": "عرض جميع المستخدمين، بما في ذلك المستخدمين الذين لديهم أقل من 5 تعديلات",
+	"action-viewallusers": "رؤية كل المستخدمين في قائمة المستخدمين",
 	"right-viewallusers": "عرض جميع المستخدمين في [[Special:ListUsers|قائمة المستخدمين]]"
 }

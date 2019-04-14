@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cainamarques"
+			"Cainamarques",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"filterlistusers-desc": "Filtra usuários que não editaram da [[Special:ListUsers|lista de usuários]]",
 	"listusers-showall": "Exibir todos os usuários, incluindo aqueles com menos de 5 edições",
+	"action-viewallusers": "ver todos os usuários na lista de usuários",
 	"right-viewallusers": "Ver todos os usuários na [[Special:ListUsers|lista de usuários]]"
 }
