@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"SandroHc",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Hamilton Abreu"
 		]
 	},
-	"filterlistusers-desc": "Filtrar utilizadores que não fizeram edições [[Special:ListUsers|lista de utilizadores]]",
-	"listusers-showall": "Mostrar todo os utilizadores, incluindo aqueles com menos de 5 edições",
+	"filterlistusers-desc": "Remover os utilizadores que não fizeram edições da [[Special:ListUsers|lista de utilizadores]]",
+	"listusers-showall": "Mostrar todos os utilizadores, incluindo aqueles com menos de 5 edições",
+	"action-viewallusers": "ver todos os utilizadores na lista de utilizadores",
 	"right-viewallusers": "Ver todos os utilizadores na [[Special:ListUsers|lista de utilizadores]]"
 }
