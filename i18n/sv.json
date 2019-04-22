@@ -7,5 +7,6 @@
 	},
 	"filterlistusers-desc": "Filtrerar bort användare som inte har redigerat från [[Special:ListUsers|användarlistan]]",
 	"listusers-showall": "Visa alla användare, inklusive de med mindre än 5 redigeringar",
+	"action-viewallusers": "se alla användare i användarlistan",
 	"right-viewallusers": "Visa alla användare i [[Special:ListUsers|användarlistan]]"
 }
