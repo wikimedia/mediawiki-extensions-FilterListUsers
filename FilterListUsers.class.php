@@ -29,7 +29,7 @@ class FilterListUsers {
 			!$wgUser->isAllowed( 'viewallusers' ) && !in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups )
 		)
 		{
-			$dbr = wfGetDB( DB_SLAVE );
+			$dbr = wfGetDB( DB_REPLICA );
 			$query['tables'][] = 'revision';
 			$query['fields'] = ( array_merge( $query['fields'], array( 'rev_user', 'COUNT(*) AS cnt' ) ) );
 			$query['options']['GROUP BY'] = 'rev_user';
