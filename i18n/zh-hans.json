@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Xiaomingyan",
-			"Yfdyh000"
+			"Yfdyh000",
+			"94rain"
 		]
 	},
 	"filterlistusers-desc": "滤除[[Special:ListUsers|用户列表]]中没有编辑过的用户",
 	"listusers-showall": "显示所有用户，包括那些少于5次编辑的用户",
+	"action-viewallusers": "查看用户列表中的所有用户",
 	"right-viewallusers": "在[[Special:ListUsers|用户列表]]中查看所有用户"
 }
