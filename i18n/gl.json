@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Elisardojm"
+			"Elisardojm",
+			"Banjo"
 		]
 	},
 	"filterlistusers-desc": "Filtra os usuarios que non fixeran edicións na [[Special:ListUsers|lista de usuarios]]",
 	"listusers-showall": "Amosar a tódolos usuarios, incluíndo aqueles con menos de 5 edicións",
+	"action-viewallusers": "ver tódolos usuarios na lista de usuarios",
 	"right-viewallusers": "Ver todos os usuarios na [[Special:ListUsers|lista de usuarios]]"
 }
