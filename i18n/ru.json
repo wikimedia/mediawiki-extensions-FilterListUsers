@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Askarmuk"
+			"Askarmuk",
+			"Okras"
 		]
 	},
 	"filterlistusers-desc": "Не показывать в [[Special:ListUsers|списке]] участников, не имеющих правок",
 	"listusers-showall": "Показать всех участников, включая тех, кто сделал меньше 5 правок",
+	"action-viewallusers": "просмотр всех участников в списке участников",
 	"right-viewallusers": "Показать всех участников в [[Special:ListUsers|списке участников]]"
 }
