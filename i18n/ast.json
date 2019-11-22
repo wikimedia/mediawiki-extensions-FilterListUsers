@@ -6,5 +6,6 @@
 	},
 	"filterlistusers-desc": "Filtriar los usuarios que nun editaron dende [[Special:ListUsers|la llista d'usuarios]]",
 	"listusers-showall": "Amosar tolos usuarios, incluyendo los que tienen menos de 5 ediciones",
+	"action-viewallusers": "ver tolos usuarios de la llista d'usuarios",
 	"right-viewallusers": "Ver tolos usuarios de [[Special:ListUsers|la llista d'usuarios]]"
 }
