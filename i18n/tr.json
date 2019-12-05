@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"filterlistusers-desc": "[[Special:ListUsers|Kullanıcı listesi]] altında düzenleme yapmayan kullanıcıları filtreler",
+	"listusers-showall": "5'ten az düzenlemeye sahip olanlar dahil tüm kullanıcıları göster",
+	"action-viewallusers": "kullanıcı listesindeki tüm kullanıcıları görüntüle",
+	"right-viewallusers": "[[Special:ListUsers|Kullanıcı listesindeki]] tüm kullanıcıları görüntüleyin"
+}
