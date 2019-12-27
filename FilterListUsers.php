@@ -5,7 +5,7 @@
  * @file
  * @ingroup Extensions
  * @author Jack Phoenix
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0-or-later
  */
 class FilterListUsers {
 	/**
@@ -27,14 +27,13 @@ class FilterListUsers {
 		if (
 			!$wgRequest->getVal( 'showall' ) && !in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups ) ||
 			!$wgUser->isAllowed( 'viewallusers' ) && !in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups )
-		)
-		{
+		) {
 			$dbr = wfGetDB( DB_REPLICA );
 			$query['tables'][] = 'revision';
-			$query['fields'] = ( array_merge( $query['fields'], array( 'rev_user', 'COUNT(*) AS cnt' ) ) );
+			$query['fields'] = array_merge( $query['fields'], [ 'rev_user', 'COUNT(*) AS cnt' ] );
 			$query['options']['GROUP BY'] = 'rev_user';
 			$query['options']['HAVING'] = 'cnt > ' . $wgFilterListUsersMinimumEdits;
-			$query['join_conds']['revision'] = array( 'JOIN', 'user_id = rev_user' );
+			$query['join_conds']['revision'] = [ 'JOIN', 'user_id = rev_user' ];
 		}
 
 		return true;

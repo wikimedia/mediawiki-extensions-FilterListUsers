@@ -14,7 +14,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"FilterListUsers": "FilterListUsers.class.php"
+		"FilterListUsers": "FilterListUsers.php"
 	},
 	"config": {
 		"FilterListUsersMinimumEdits": 5,
