@@ -18,15 +18,17 @@ class FilterListUsers {
 	 * @return bool
 	 */
 	public static function onSpecialListusersQueryInfo( $usersPager, &$query ) {
-		global $wgRequest, $wgUser, $wgFilterListUsersMinimumEdits, $wgFilterListUsersExemptGroups;
+		global $wgRequest, $wgFilterListUsersMinimumEdits, $wgFilterListUsersExemptGroups;
 
 		// Members of these groups will always be shown if the user selects this
 		// group from the dropdown menu, no matter if they haven't edited the wiki
 		// at all
 
 		if (
-			!$wgRequest->getVal( 'showall' ) && !in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups ) ||
-			!$wgUser->isAllowed( 'viewallusers' ) && !in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups )
+			!$wgRequest->getVal( 'showall' ) &&
+			!in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups ) ||
+			!$usersPager->getUser()->isAllowed( 'viewallusers' ) &&
+			!in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups )
 		) {
 			$dbr = wfGetDB( DB_REPLICA );
 			$query['tables'][] = 'revision';
@@ -47,10 +49,10 @@ class FilterListUsers {
 	 * @return bool
 	 */
 	public static function onSpecialListusersHeaderForm( $usersPager, &$out ) {
-		global $wgRequest, $wgUser;
+		global $wgRequest;
 
 		// Show this checkbox only to privileged users
-		if ( $wgUser->isAllowed( 'viewallusers' ) ) {
+		if ( $usersPager->getUser()->isAllowed( 'viewallusers' ) ) {
 			$out .= Xml::checkLabel(
 				wfMessage( 'listusers-showall' )->plain(),
 				'showall',
