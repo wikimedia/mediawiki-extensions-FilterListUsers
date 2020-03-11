@@ -27,12 +27,8 @@
 		]
 	},
 	"Hooks": {
-		"SpecialListusersQueryInfo": [
-			"FilterListUsers::onSpecialListusersQueryInfo"
-		],
-		"SpecialListusersHeaderForm": [
-			"FilterListUsers::onSpecialListusersHeaderForm"
-		]
+		"SpecialListusersQueryInfo": "FilterListUsers::onSpecialListusersQueryInfo",
+		"SpecialListusersHeaderForm": "FilterListUsers::onSpecialListusersHeaderForm"
 	},
 	"AvailableRights": [
 		"viewallusers"
