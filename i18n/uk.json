@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата",
-			"Vlad5250"
+			"Vlad5250",
+			"Ата"
 		]
 	},
 	"filterlistusers-desc": "Не показувати у [[Special:ListUsers|списку]] користувачів, що не робили редагувань.",

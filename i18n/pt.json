@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hamilton Abreu",
 			"SandroHc",
-			"Vitorvicentevalente",
-			"Hamilton Abreu"
+			"Vitorvicentevalente"
 		]
 	},
 	"filterlistusers-desc": "Remover os utilizadores que não fizeram edições da [[Special:ListUsers|lista de utilizadores]]",

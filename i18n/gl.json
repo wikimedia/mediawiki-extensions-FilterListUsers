@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño",
+			"Banjo",
 			"Elisardojm",
-			"Banjo"
+			"Toliño"
 		]
 	},
 	"filterlistusers-desc": "Filtra os usuarios que non fixeran edicións na [[Special:ListUsers|lista de usuarios]]",

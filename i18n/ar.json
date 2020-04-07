@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"ديفيد",
-			"Meno25"
+			"Meno25",
+			"ديفيد"
 		]
 	},
 	"filterlistusers-desc": "تصفية المستخدمين الذين لم يحرروا من [[Special:ListUsers|قائمة المستخدمين]]",

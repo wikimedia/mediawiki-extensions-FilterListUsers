@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"94rain",
 			"Xiaomingyan",
-			"Yfdyh000",
-			"94rain"
+			"Yfdyh000"
 		]
 	},
 	"filterlistusers-desc": "滤除[[Special:ListUsers|用户列表]]中没有编辑过的用户",
