@@ -14,7 +14,7 @@ class FilterListUsers {
 	 * will be shown.
 	 *
 	 * @param UsersPager $usersPager
-	 * @param array $query SQL query parameters
+	 * @param array &$query SQL query parameters
 	 * @return bool
 	 */
 	public static function onSpecialListusersQueryInfo( $usersPager, &$query ) {
@@ -45,7 +45,7 @@ class FilterListUsers {
 	 * Adds the "Show all users" checkbox for privileged users.
 	 *
 	 * @param UsersPager $usersPager
-	 * @param string $out HTML output
+	 * @param string &$out HTML output
 	 * @return bool
 	 */
 	public static function onSpecialListusersHeaderForm( $usersPager, &$out ) {
