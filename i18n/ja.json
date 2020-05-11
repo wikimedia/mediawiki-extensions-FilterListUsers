@@ -7,5 +7,6 @@
 	},
 	"filterlistusers-desc": "編集したことがない利用者を[[Special:ListUsers|利用者の一覧]]から除外する",
 	"listusers-showall": "すべての利用者 (編集5回未満を含む) を表示",
+	"action-viewallusers": "利用者の一覧でのすべての利用者の閲覧",
 	"right-viewallusers": "[[Special:ListUsers|利用者の一覧]]ですべての利用者を閲覧"
 }
