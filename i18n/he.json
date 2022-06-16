@@ -8,5 +8,6 @@
 	},
 	"filterlistusers-desc": "סינון משתמשים שלא ערכו מתוך [[Special:ListUsers|רשימת המשתמשים]]",
 	"listusers-showall": "הצגת כל המשתמשים, כולל אלה עם פחות מ-5 עריכות",
+	"action-viewallusers": "לצפות בכל המשתמשים ברשימת המשתמשים",
 	"right-viewallusers": "צפייה בכל המשתמשים ב[[Special:ListUsers|רשימת המשתמשים]]"
 }
