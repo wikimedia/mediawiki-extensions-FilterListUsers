@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Pols12"
+			"Pols12",
+			"Verdy p"
 		]
 	},
-	"filterlistusers-desc": "Éliminer les utilisateurs qui n'ont rien édité de [[Special:ListUsers|la liste des utilisateurs]]",
-	"listusers-showall": "Afficher tous les utilisateurs, y compris ceux ayant fait moins de 5 modifications",
+	"filterlistusers-desc": "Éliminer les utilisateurs qui n'ont rien modifié de la [[Special:ListUsers|liste des utilisateurs]]",
+	"listusers-showall": "Afficher tous les utilisateurs, y compris ceux ayant effectué moins de 5 modifications",
 	"action-viewallusers": "voir tous les utilisateurs dans la liste des utilisateurs",
-	"right-viewallusers": "Voir tous les utilisateurs dans [[Special:ListUsers|la liste des utilisateurs]]"
+	"right-viewallusers": "Voir tous les utilisateurs dans la [[Special:ListUsers|liste des utilisateurs]]"
 }
