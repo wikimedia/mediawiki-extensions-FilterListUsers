@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"filterlistusers-desc": "Izfiltrira uporabnike, ki niso urejali, s [[Special:ListUsers|seznama uporabnikov]]",
+	"listusers-showall": "Prikaži vse uporabnike, vključno s tistimi z manj kot 5 urejanji",
+	"action-viewallusers": "ogled vseh uporabnikov na seznamu uporabnikov",
+	"right-viewallusers": "Ogled vseh uporabnikov na [[Special:ListUsers|seznamu uporabnikov]]"
+}
