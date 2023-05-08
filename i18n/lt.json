@@ -7,5 +7,6 @@
 	},
 	"filterlistusers-desc": "Filtruoja vartotojus, kurie nėra redagavę, [[Special:ListUsers|vartotojų sąraše]]",
 	"listusers-showall": "Rodyti visus vartotojus, įskaitant tuos, kurie turi mažiau nei 5 keitimus",
+	"action-viewallusers": "žiūrėti visus naudotojus naudotojų sąraše",
 	"right-viewallusers": "Žiūrėti visus vartotojus [[Special:ListUsers|vartotojų sąraše]]"
 }
