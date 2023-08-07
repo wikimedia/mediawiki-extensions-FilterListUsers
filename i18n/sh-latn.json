@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"filterlistusers-desc": "Filtrira korisnike što nisu uradili sa [[Special:ListUsers|spiska korisnika]]",
+	"listusers-showall": "Prikaži sve korisnike, uključujući one s manje od 5 izmjena",
+	"action-viewallusers": "pregled korisnika u korisnički spisku",
+	"right-viewallusers": "Pogledajte sve korisnike na [[Special:ListUsers|spisku korisnika]]"
+}
