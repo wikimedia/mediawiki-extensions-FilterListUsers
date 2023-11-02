@@ -8,5 +8,6 @@
 	},
 	"filterlistusers-desc": "Filtert gebruikers die nog geen bewerking hebben gemaakt uit de [[Special:ListUsers|gebruikerslijst]]",
 	"listusers-showall": "Geef alle gebruikers weer, ook gebruikers met minder dan 5 bewerkingen",
+	"action-viewallusers": "alle gebruikers in de gebruikerslijst te bekijken",
 	"right-viewallusers": "Alle gebruikers in de [[Special:ListUsers|gebruikerslijst]] bekijken"
 }
