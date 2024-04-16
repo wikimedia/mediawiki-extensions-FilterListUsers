@@ -15,30 +15,32 @@ class FilterListUsers {
 	 *
 	 * @param UsersPager $usersPager
 	 * @param array &$query SQL query parameters
-	 * @return bool
 	 */
 	public static function onSpecialListusersQueryInfo( $usersPager, &$query ) {
-		global $wgRequest, $wgFilterListUsersMinimumEdits, $wgFilterListUsersExemptGroups;
+		global $wgFilterListUsersMinimumEdits, $wgFilterListUsersExemptGroups;
 
+		// phpcs:ignore Generic.Files.LineLength.TooLong
+		$requestedGroup = isset( $usersPager->getDefaultQuery()['group'] ) ? $usersPager->getDefaultQuery()['group'] : false;
 		// Members of these groups will always be shown if the user selects this
 		// group from the dropdown menu, no matter if they haven't edited the wiki
 		// at all
-
+		$isNotExempt = !in_array( $requestedGroup, $wgFilterListUsersExemptGroups );
 		if (
-			!$wgRequest->getVal( 'showall' ) &&
-			!in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups ) ||
-			!$usersPager->getUser()->isAllowed( 'viewallusers' ) &&
-			!in_array( $usersPager->requestedGroup, $wgFilterListUsersExemptGroups )
+			!$usersPager->getRequest()->getVal( 'showall' ) && $isNotExempt ||
+			!$usersPager->getUser()->isAllowed( 'viewallusers' ) && $isNotExempt
 		) {
 			$dbr = wfGetDB( DB_REPLICA );
+			// ORDER IS SUPER IMPORTANT HERE! Get these in the wrong order and the query breaks
+			$query['tables'][] = 'actor';
 			$query['tables'][] = 'revision';
-			$query['fields'] = array_merge( $query['fields'], [ 'rev_user', 'COUNT(*) AS cnt' ] );
-			$query['options']['GROUP BY'] = 'rev_user';
+			$query['fields'] = array_merge( $query['fields'], [ 'rev_actor', 'COUNT(*) AS cnt' ] );
+			// user_name in GROUP BY is needed for ONLY_FULL_GROUP_BY compliance; WMF CI at least
+			// seems to use ONLY_FULL_GROUP_BY
+			$query['options']['GROUP BY'] = 'rev_actor, user_name';
 			$query['options']['HAVING'] = 'cnt > ' . $wgFilterListUsersMinimumEdits;
-			$query['join_conds']['revision'] = [ 'JOIN', 'user_id = rev_user' ];
+			$query['join_conds']['actor'] = [ 'LEFT JOIN', 'actor_user = user_id' ];
+			$query['join_conds']['revision'] = [ 'JOIN', 'rev_actor = actor_id' ];
 		}
-
-		return true;
 	}
 
 	/**
@@ -46,22 +48,17 @@ class FilterListUsers {
 	 *
 	 * @param UsersPager $usersPager
 	 * @param string &$out HTML output
-	 * @return bool
 	 */
 	public static function onSpecialListusersHeaderForm( $usersPager, &$out ) {
-		global $wgRequest;
-
 		// Show this checkbox only to privileged users
 		if ( $usersPager->getUser()->isAllowed( 'viewallusers' ) ) {
 			$out .= Xml::checkLabel(
-				wfMessage( 'listusers-showall' )->plain(),
+				$usersPager->msg( 'listusers-showall' )->plain(),
 				'showall',
 				'showall',
-				$wgRequest->getVal( 'showall' )
+				$usersPager->getRequest()->getVal( 'showall' )
 			);
 			$out .= '&nbsp;';
 		}
-
-		return true;
 	}
 }
