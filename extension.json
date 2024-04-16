@@ -1,6 +1,6 @@
 {
 	"name": "FilterListUsers",
-	"version": "1.5",
+	"version": "1.6",
 	"author": [
 		"Jack Phoenix"
 	],
@@ -9,7 +9,7 @@
 	"descriptionmsg": "filterlistusers-desc",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.31.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"MessagesDirs": {
 		"FilterListUsers": [
