@@ -20,14 +20,20 @@
 		"FilterListUsers": "FilterListUsers.php"
 	},
 	"config": {
-		"FilterListUsersMinimumEdits": 5,
-		"FilterListUsersExemptGroups": [
-			"sysop",
-			"bureaucrat",
-			"steward",
-			"staff",
-			"globalbot"
-		]
+		"FilterListUsersMinimumEdits": {
+			"description": "Number of edits users must have made in order to appear on Special:ListUsers",
+			"value": 5
+		},
+		"FilterListUsersExemptGroups": {
+			"description": "List of user groups whose members will always appear on Special:ListUsers, even if they have made less than $wgFilterListUsersMinimumEdits edits or no edits at all",
+			"value": [
+				"sysop",
+				"bureaucrat",
+				"steward",
+				"staff",
+				"globalbot"
+			]
+		}
 	},
 	"Hooks": {
 		"SpecialListusersQueryInfo": "FilterListUsers::onSpecialListusersQueryInfo",
@@ -41,5 +47,5 @@
 			"viewallusers": true
 		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
