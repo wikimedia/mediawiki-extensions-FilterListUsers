@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * FilterListUsers -- filters out users that haven't edited from Special:ListUsers
  *
@@ -29,7 +32,7 @@ class FilterListUsers {
 			!$usersPager->getRequest()->getVal( 'showall' ) && $isNotExempt ||
 			!$usersPager->getUser()->isAllowed( 'viewallusers' ) && $isNotExempt
 		) {
-			$dbr = wfGetDB( DB_REPLICA );
+			$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 			// ORDER IS SUPER IMPORTANT HERE! Get these in the wrong order and the query breaks
 			$query['tables'][] = 'actor';
 			$query['tables'][] = 'revision';
