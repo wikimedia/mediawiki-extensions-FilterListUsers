@@ -26,8 +26,8 @@ class FilterListUsers {
 		// at all
 		$isNotExempt = !in_array( $requestedGroup, $wgFilterListUsersExemptGroups );
 		if (
-			!$usersPager->getRequest()->getVal( 'showall' ) && $isNotExempt ||
-			!$usersPager->getUser()->isAllowed( 'viewallusers' ) && $isNotExempt
+			( !$usersPager->getRequest()->getVal( 'showall' ) && $isNotExempt ) ||
+			( !$usersPager->getUser()->isAllowed( 'viewallusers' ) && $isNotExempt )
 		) {
 			$dbr = wfGetDB( DB_REPLICA );
 			// ORDER IS SUPER IMPORTANT HERE! Get these in the wrong order and the query breaks
