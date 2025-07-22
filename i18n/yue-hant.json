@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"JeffreyKim"
+		]
+	},
+	"filterlistusers-desc": "篩選出喺[[Special:ListUsers|用戶清單]]未編輯過嘅使用者",
+	"listusers-showall": "顯示所有使用者，包括編輯次數少過 5 次嘅使用者",
+	"action-viewallusers": "睇返用戶清單入面嘅所有用戶",
+	"right-viewallusers": "喺[[Special:ListUsers|用戶清單]]入面睇返所有用戶"
+}
