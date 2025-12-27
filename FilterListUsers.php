@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -55,11 +56,12 @@ class FilterListUsers {
 	public static function onSpecialListusersHeaderForm( $usersPager, &$out ) {
 		// Show this checkbox only to privileged users
 		if ( $usersPager->getUser()->isAllowed( 'viewallusers' ) ) {
-			$out .= Xml::checkLabel(
+			$out .= Html::check(
+				'showall', $usersPager->getRequest()->getVal( 'showall' ),
+				[ 'id' => 'showall' ]
+			) . "\u{00A0}" . Html::label(
 				$usersPager->msg( 'listusers-showall' )->plain(),
-				'showall',
-				'showall',
-				$usersPager->getRequest()->getVal( 'showall' )
+				'showall'
 			);
 			$out .= '&nbsp;';
 		}
