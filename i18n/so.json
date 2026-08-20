@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"filterlistusers-desc": "Waxay isticmaalayaasha ka sifaysaa [[Special:ListUsers|liiska isticmaalayaasha ]] kuwa aan wax tafatir ah samayn",
+	"listusers-showall": "Muuji dhammaan isticmaalayaasha, oo ay ku jiraan kuwa leh wax ka yar 5 tafatir",
+	"action-viewallusers": "Eeg dhammaan isticmaalayaasha ku jira liiska isticmaalayaasha",
+	"right-viewallusers": "Eeg dhammaan isticmaalayaasha ku jira [[Special:ListUsers|liiska isticmaalaha]]"
+}
