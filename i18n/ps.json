@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"filterlistusers-desc": "هغه کارنان چې له [[Special:ListUsers|کارنانو لړليک]] څخه سم شوې نه دي، چاڼوي.",
+	"listusers-showall": "ټول کارنان د هغه کارنانو په گډون وښاياست چې له ۵ کم سمونونه لري",
+	"action-viewallusers": "په کارن لړ کې د ټولو کارنانو کتل",
+	"right-viewallusers": "ټول کارنان په [[Special:ListUsers|کارن لړ]] کې کتل"
+}
