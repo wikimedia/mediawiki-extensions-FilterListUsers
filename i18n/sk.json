@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"filterlistusers-desc": "Odfiltruje zo [[Special:ListUsers|zoznamu používateľov]] tých, ktorí nevykonali žiadnu úpravu",
+	"listusers-showall": "Zobraziť všetkých používateľov vrátane tých s menej ako 5 úpravami",
+	"action-viewallusers": "zobraziť všetkých používateľov v zozname používateľov",
+	"right-viewallusers": "Zobraziť všetkých používateľov v [[Special:ListUsers|zozname používateľov]]"
+}
